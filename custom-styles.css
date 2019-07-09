@@ -1,0 +1,79 @@
+/*
+ Harrison R. Lara
+    16209936        
+    12/08/2017
+*/
+
+/* Page Credit: Linear Gradient syntax https://www.w3schools.com/css/css3_gradients.asp */
+
+.navigation{
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 500px;
+    margin-left: 400;
+    margin-right: 310;  
+}
+
+.accordgrid{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.portfolio img {
+    height: 200px;
+    width: 200px;
+}
+
+.portfoliovideo {
+    margin-top: 10px;
+}
+
+.portfolio-bg {
+    /* http://www.color-hex.com/color/feca31 */
+    background: -moz-linear-gradient(top, rgba(254,202,49,1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Firefox */
+    background: -webkit-linear-gradient(top, rgba(254,202,49,1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome ,Safari */
+    background: linear-gradient(to bottom, rgba(254,202,49,1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* W3C, Inernet explorer, Firefox, Chrome, Opera, Safari */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#98791d', endColorstr='#000000', GradientType=0);
+    /* Internet explorer */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.home-bg {
+    /* http://www.color-hex.com/color/feca31 */
+    background: -moz-linear-gradient(top, rgba(254,202,49,1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Firefox */
+    background: -webkit-linear-gradient(top, rgba(254,202,49,1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome, Safari */
+    background: linear-gradient(to bottom, rgba(254,202,49,1) 0%, rgba(125, 185, 232, 0) 100%);
+    /* W3C, IE+, Firefox, Chrome, Opera, Safari*/
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#98791d', endColorstr='#000000', GradientType=0);
+    /* Internet explorer  */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.contact-bg {
+    
+     /* http://www.color-hex.com/color/feca31 */
+    background: -moz-linear-gradient(top, rgba(119,112,112, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Firefox */
+    background: -webkit-linear-gradient(top, rgba(119,112,112, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome, Safari */
+    background: linear-gradient(to bottom, rgba(119,112,112, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE+, Firefox, Chrome, Opera, Safari*/
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#777070', endColorstr='#FFFFFF', GradientType=0);
+    /* Internet explorer  */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

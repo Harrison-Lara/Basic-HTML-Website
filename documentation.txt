@@ -1,0 +1,61 @@
+Harrison R. Lara
+16209936   
+12/08/2017
+    
+OVERVIEW
+------------
+- Each person that visits will have to enter a username and password to access the website. Upon login in, the user be sent to the landing page, which is called the "Home" page, which lets you see what the site has to offer.
+
+- There is a menu at the top of the site that lets you select which page you would like to navigate to. The second tab is called "Portfolio", which has a few images and a video embedded.  
+
+- The third menu option is the "Connect With Us!" tab, which will allow the user to submit a form to me with any questions/ comments by entering their name, phone number and email address. This will send an email to myself with the form submission.
+
+- The fourth menu option allows the user to logout of the site. 
+
+- Home.php uses a drop down boxes for the style. This page allows me to introduces myself, tell you about why the site exists, components of the site and finally why I am majoring in IT. 
+
+- Portfolio.php has four images. If the user selects a photo, then an image box will appear and the user can browse all the photos in that mode or they can view them all at once on the base portfolio page. There is also a video from YouTube correlating to the photos. 
+
+- Contact.php is a page that allows the user to connect with me by filling in text boxes with their contact information and their concerns, which is submitted to an email. 
+
+- LINK:   http://ec2-18-221-203-29.us-east-2.compute.amazonaws.com/FinalProject/index.php
+
+
+Grading Specifics (follows PDF V2)
+----------------------------------
+1) HTML5 - used within half of the PHP files
+   CSS - CSS -> custom-styles.css OR final project -> app.css
+
+2) Design/User Interface - navigation bar is at top of each page, all pages correlate to myself now and my career goals (see website)
+
+3) Structured - see navigation bar stays at top of each page, can be edited a whole. css -> custom-styles.css -> lines 7 - 17
+
+4) login only access - final project -> login_form.php AND logout.php AND see website (cant access through url)
+
+5) login info - user: test     password: pass
+
+6) PHP - see any files in final project, all utilize php techniques 
+
+7) GET- final project -> form.js -> line 17
+   POST - final project -> form.php -> lines 10-13
+   
+8) login elements - final project -> login_form.php AND app.css
+
+9) form elements - final project -> form.php AND form.js
+
+10) photos - final project -> portfolio.php
+
+11) video - final project -> portfolio.php
+
+12) Javascript - final project -> form.js OR portfolio.js
+
+13) JQUERY - final project -> login_form -> line 18 - 20 also click on images in portfolio to scroll through them via a menu
+
+14) JQ UI and Bootstrap - final project -> jquery-UI-1.12.1 AND css -> bootstrap (ex. home.php OR contact.php)
+
+15) AJAX - final project ->contact.php
+
+16) see website
+
+17) documentation - Current file (documentation.txt)
+    LINK:    http://ec2-18-221-203-29.us-east-2.compute.amazonaws.com/FinalProject/index.php
